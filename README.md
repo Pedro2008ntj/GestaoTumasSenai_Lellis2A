@@ -1,1 +1,1 @@
-# GestaoTumasSenai_Lellis2A
+# GestaoTurmasSenai_Lellis2A
