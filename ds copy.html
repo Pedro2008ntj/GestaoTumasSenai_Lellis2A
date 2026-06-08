@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="95mtquente">
+    <title>TURMAS DO SENAI</title>
+    <meta name="description" content=". . .">
+    <meta name="keywords" content="sites, web, frontend">
+    <meta name="Pedro" content="Pedro Davi, deusimarsousa85@gmail.com">
+
+    <style>
+        header{
+            background-color: rgb(10, 173, 238);
+        }
+        .menu ul {
+            list-style: none;
+        }
+        section section section{
+            width: 200px;
+            display: inline-block;
+            min-height: 350px;
+            background-color: rgb(58, 74, 128);
+            vertical-align: top;
+            min-height: 300px;
+            box-sizing: border-box;
+            border: 2px solid;
+        }
+        .menu ul li{
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid rgb(35, 129, 192);
+            background-color: rgb(33, 147, 175);
+        }
+        .listaAlunos li{
+            padding: 5px;
+        }
+        section section section footer{
+            background-color: beige;
+        }
+        section section section footer h3{
+            font-size: smaller;
+        }
+        section{
+            background-color: aliceblue;
+        }
+        /* section section{
+        font-size 0;
+        }   */
+        
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Lellis Ito - Turma A</a></li>
+                <li><a href="#">Lellis Ito - Turma B</a></li>
+                <li><a href="#">Pinto do Amaral - Turma A</a></li>
+                <li><a href="#">Pinto do Amaral - Turma B</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <section>
+            <section>
+                <header>Lellis Ito - Turma A</header>
+                <article>
+                    <ul class="listaAlunos" id="alunosLellis_A">
+                        <li>Christopher</li>
+                        <li>Deuel</li>
+                        <li>Gabriel</li>
+                        <li>...</li>
+                        <li>Lara de Marco</li>
+                        <li>...</li>
+                        <li>Maisa</li>
+                        <li>...</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h3>Quantidade de alunos <mark><p id="qtdAlunosLellis_A">0</p></mark></h3>
+                </footer>
+            </section>
+
+    
+            <section>
+                <header>Lellis Ito - Turma B</header>
+                <article>
+                    <ul>
+                        <li>João</li>
+                        <li>Raphael</li>
+                        <li>Gabriel</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h3>Quantidade de alunos <mark>10</mark></h3>
+                </footer>
+    
+            </section>
+            <section>
+                <header>Pinto do Amaral - Turma A</header>
+                <article>
+                    <ul>
+                        <li>Junior</li>
+                        <li>Cleiton</li>
+                        <li>Elisamar</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h3>Quantidade de alunos <mark>10</mark></h3>
+                </footer>
+            </section>
+            <section>
+                <header>Pinto do Amaral - Turma B</header>
+                <article>
+                    <ul>
+                        <li>Deusimar</li>
+                        <li>Joanes</li>
+                        <li>Kunakama</li>
+                    </ul>
+                </article>
+                <footer>
+                    <h3>Quantidade de alunos <mark>10</mark></h3>
+                </footer>
+            </section>
+        </section>
+    </section>
+
+
+    <footer>
+        <h3>Desenvolvido por: <mark><b>Pedro Davi!</b></mark></h3>
+    </footer>
+    <script>
+        function contarQuantidadeAlunosTurma(lista, qtd) {
+            const listaAlunos = document.getElementById(lista);
+            let quantidade = 10;
+            document.getElementById('qtdAlunosLellis_A').textContent = quantidade
+
+        }
+    </script>
+</body>
+
+</html>
